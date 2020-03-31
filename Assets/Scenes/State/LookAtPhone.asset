@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e24ab1d06e40eb3478c0943dfac19125, type: 3}
-  m_Name: StartingState
+  m_Name: LookAtPhone
   m_EditorClassIdentifier: 
-  myStoryText: "You wake up, then suddenly...\r\n\r\nA. pick your phone to check what
-    time is it.\r\nB. Grab some water to soak your throat."
+  myStoryText: '*You starts finding up the phone next to you*'
   nextState:
-  - {fileID: 11400000, guid: 072376365b8771c4cbb9067b8aaa6027, type: 2}
   - {fileID: 11400000, guid: 7d53da3576b92e84d9e720cc9390a040, type: 2}
+  - {fileID: 11400000, guid: d1ff8f958db541f42be81a627dd0a2f5, type: 2}
